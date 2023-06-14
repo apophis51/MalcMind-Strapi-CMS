@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "site_products",
+  "info": {
+    "singularName": "site-product",
+    "pluralName": "site-products",
+    "displayName": "Site Product",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Product": {
+      "type": "string"
+    },
+    "transcriptions": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::transcription.transcription",
+      "mappedBy": "site_products"
+    }
+  }
+}

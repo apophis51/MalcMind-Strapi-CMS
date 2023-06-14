@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_price_field_price_fields",
+  "info": {
+    "displayName": "PriceField",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}

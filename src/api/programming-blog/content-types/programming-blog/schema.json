@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programming_blogs",
+  "info": {
+    "singularName": "programming-blog",
+    "pluralName": "programming-blogs",
+    "displayName": "Blogs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Content": {
+      "type": "richtext"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "component",
+      "repeatable": true,
+      "component": "keyword.keywords"
+    },
+    "GPT": {
+      "type": "boolean"
+    },
+    "Does_Image_have_Watermarks": {
+      "type": "boolean"
+    },
+    "Blog_Type": {
+      "type": "enumeration",
+      "enum": [
+        "Programming"
+      ]
+    },
+    "Navigation_Page": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricings",
+  "info": {
+    "singularName": "pricing",
+    "pluralName": "pricings",
+    "displayName": "TranscriptionPricing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ProductType": {
+      "type": "string"
+    },
+    "Value": {
+      "displayName": "PriceField",
+      "type": "component",
+      "repeatable": true,
+      "component": "price-field.price-field"
+    }
+  }
+}

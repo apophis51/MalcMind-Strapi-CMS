@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_keyword_keywords",
+  "info": {
+    "displayName": "Keywords",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "keyword": {
+      "type": "string"
+    }
+  }
+}

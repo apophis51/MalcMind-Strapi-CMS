@@ -4,14 +4,15 @@
   "info": {
     "singularName": "transcription",
     "pluralName": "transcriptions",
-    "displayName": "Transcription"
+    "displayName": "Transcription",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "H1": {
       "type": "string",
       "required": true,
       "unique": true
@@ -19,9 +20,32 @@
     "Description": {
       "type": "richtext"
     },
-    "Keywords": {
+    "Question": {
+      "displayName": "FAQ Question",
+      "type": "component",
+      "repeatable": true,
+      "component": "faqs.faq-question"
+    },
+    "keyword": {
+      "type": "component",
+      "repeatable": true,
+      "component": "keyword.keywords"
+    },
+    "TITLE": {
       "type": "string",
-      "private": true
+      "required": false
+    },
+    "Sub": {
+      "type": "richtext"
+    },
+    "refpage": {
+      "type": "string"
+    },
+    "site_products": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::site-product.site-product",
+      "inversedBy": "transcriptions"
     }
   }
 }
