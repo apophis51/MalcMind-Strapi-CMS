@@ -32,11 +32,28 @@
     "Blog_Type": {
       "type": "enumeration",
       "enum": [
-        "Programming"
+        "Programming",
+        "Projects"
       ]
     },
     "Navigation_Page": {
       "type": "boolean"
+    },
+    "FrontImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "DropDown": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faqs.faq-question"
     }
   }
 }

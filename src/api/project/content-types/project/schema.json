@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Projectphoto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Website": {
+      "type": "string"
+    },
+    "SourceCode": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "StackTech": {
+      "type": "string"
+    },
+    "Complexity": {
+      "type": "integer"
+    },
+    "Quality": {
+      "type": "integer"
+    }
+  }
+}
