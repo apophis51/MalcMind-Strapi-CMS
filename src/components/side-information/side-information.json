@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_side_information_side_informations",
+  "info": {
+    "displayName": "Side information",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "SideInformation": {
+      "type": "enumeration",
+      "enum": [
+        "Video"
+      ]
+    },
+    "VideoEmbeds": {
+      "type": "text"
+    }
+  }
+}

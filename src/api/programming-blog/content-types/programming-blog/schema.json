@@ -33,7 +33,8 @@
       "type": "enumeration",
       "enum": [
         "Programming",
-        "Projects"
+        "Projects",
+        "Vlog"
       ]
     },
     "Navigation_Page": {
@@ -54,6 +55,11 @@
       "type": "component",
       "repeatable": true,
       "component": "faqs.faq-question"
+    },
+    "SideInformation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "side-information.side-information"
     }
   }
 }
