@@ -9,10 +9,11 @@
     "SideInformation": {
       "type": "enumeration",
       "enum": [
-        "Video"
+        "Video",
+        "Meta"
       ]
     },
-    "VideoEmbeds": {
+    "Data": {
       "type": "text"
     }
   }
