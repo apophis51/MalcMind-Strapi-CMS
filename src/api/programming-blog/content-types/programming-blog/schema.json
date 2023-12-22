@@ -33,6 +33,7 @@
       "type": "enumeration",
       "enum": [
         "Programming",
+        "ProgrammingQuestion",
         "Projects",
         "Vlog",
         "MalcMindTechSkill",
