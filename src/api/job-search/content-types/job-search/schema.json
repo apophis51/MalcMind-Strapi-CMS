@@ -52,6 +52,12 @@
     },
     "tech_stack": {
       "type": "text"
+    },
+    "years_experience_required": {
+      "type": "string"
+    },
+    "coverletter": {
+      "type": "richtext"
     }
   }
 }
