@@ -43,6 +43,15 @@
     },
     "Job_Location": {
       "type": "string"
+    },
+    "number_of_applicants": {
+      "type": "string"
+    },
+    "follow_up_notes": {
+      "type": "richtext"
+    },
+    "tech_stack": {
+      "type": "text"
     }
   }
 }
