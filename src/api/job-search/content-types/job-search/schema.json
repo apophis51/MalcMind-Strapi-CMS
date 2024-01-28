@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_searches",
+  "info": {
+    "singularName": "job-search",
+    "pluralName": "job-searches",
+    "displayName": "Job Search",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Company": {
+      "type": "string"
+    },
+    "Applied_Date": {
+      "type": "date"
+    },
+    "Job_Posting_URL": {
+      "type": "text"
+    },
+    "Main_Posting_URL": {
+      "type": "text"
+    },
+    "Resume_Version": {
+      "type": "text"
+    },
+    "Education_Requirements": {
+      "type": "string"
+    },
+    "Job_Description": {
+      "type": "richtext"
+    },
+    "Rejection_Message": {
+      "type": "richtext"
+    },
+    "JobQuestion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "job-question.job-question"
+    },
+    "Job_Location": {
+      "type": "string"
+    }
+  }
+}

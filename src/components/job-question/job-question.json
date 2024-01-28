@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_job_question_job_questions",
+  "info": {
+    "displayName": "JobQuestion"
+  },
+  "options": {},
+  "attributes": {
+    "Question": {
+      "type": "text"
+    },
+    "Answer": {
+      "type": "richtext"
+    }
+  }
+}
