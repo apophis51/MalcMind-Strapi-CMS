@@ -58,6 +58,9 @@
     },
     "coverletter": {
       "type": "richtext"
+    },
+    "platform": {
+      "type": "string"
     }
   }
 }
