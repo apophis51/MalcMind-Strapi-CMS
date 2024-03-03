@@ -61,6 +61,9 @@
     },
     "platform": {
       "type": "string"
+    },
+    "Job_Title": {
+      "type": "string"
     }
   }
 }
