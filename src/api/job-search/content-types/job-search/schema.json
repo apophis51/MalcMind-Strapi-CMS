@@ -64,6 +64,9 @@
     },
     "Job_Title": {
       "type": "string"
+    },
+    "userEmail": {
+      "type": "email"
     }
   }
 }
