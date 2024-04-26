@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "job_resumes",
+  "info": {
+    "singularName": "job-resume",
+    "pluralName": "job-resumes",
+    "displayName": "JobResume"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userEmail": {
+      "type": "email"
+    },
+    "Resume": {
+      "type": "richtext"
+    },
+    "JobQuestion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "job-question.job-question"
+    }
+  }
+}
